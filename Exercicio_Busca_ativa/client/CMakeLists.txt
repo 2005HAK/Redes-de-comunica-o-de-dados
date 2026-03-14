@@ -20,5 +20,4 @@ target_link_libraries(${PROJECT_NAME}
     Qt5::Widgets 
     Qt5::Network 
     Qt5::Multimedia
-    ${SQLITE3_LIBRARIES}
 )
