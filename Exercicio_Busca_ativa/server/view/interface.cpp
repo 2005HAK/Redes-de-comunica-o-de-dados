@@ -166,7 +166,9 @@ void Interface::handleToggleStatus() {
 	std::vector<Device> devices = controller->getDevices();
 
 	controller->updateDeviceStatus(devices[currentDeviceIndex].getName(), devices[currentDeviceIndex].getInterval(), !devices[currentDeviceIndex].isActive());
-
+	
+	captureController->updateSchedules();
+	
 	this->handleDeviceSelection(deviceList->currentItem());
 }
 

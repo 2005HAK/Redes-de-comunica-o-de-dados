@@ -3,6 +3,16 @@
 Agent::Agent(QObject* parent) : QObject(parent){
 	tcpServer = new QTcpServer(this);
 
+	camera = new QCamera(this);
+	imageCapture = new QImageCapture(this);
+	captureSession = new QMediaCaptureSession(this);
+
+	captureSession->setCamera(camera);
+	captureSession->setImageCapture(imageCapture);
+
+	connect(imageCapture, &QImageCapture::imageCaptured, this, &Agent::onWebcamImageCaptured);
+	connect(imageCapture, &QImageCapture::errorOccurred, this, &Agent::onCameraError);
+
 	connect(tcpServer, &QTcpServer::newConnection, this, &Agent::onNewConnection);
 
 	if(tcpServer->listen(QHostAddress::Any, 55555)) std::cout << "Agent active and listening on port 55555" << std::endl; 
@@ -22,7 +32,6 @@ void Agent::onNewConnection(){
 
 void Agent::onReadyRead(){
 	QTcpSocket* socket = qobject_cast<QTcpSocket*>(sender());
-
 	if(!socket) return;
 
 	QByteArray request = socket->readAll();
@@ -34,6 +43,8 @@ void Agent::onReadyRead(){
 }
 
 void Agent::sendCapture(QTcpSocket* socket){
+	this->currentClientSocket = socket;
+
 	QScreen* screen = QGuiApplication::primaryScreen();
 	if(!screen) return;
 
@@ -51,7 +62,20 @@ void Agent::sendCapture(QTcpSocket* socket){
 	screenBuffer.open(QIODevice::WriteOnly);
 	originalPixmap.save(&screenBuffer, "JPG");
 
+	camera->start();
+	imageCapture->capture();
+}
+
+void Agent::onWebcamImageCaptured(int id, const QImage& preview){
+	Q_UNUSED(id);
+	camera->stop();
+
+	if(!currentClientSocket || currentClientSocket->state() != QAbstractSocket::ConnectedState) return;
+
 	QByteArray webCamData;
+	QBuffer webCamBuffer(&webCamData);
+	webCamBuffer.open(QIODevice::WriteOnly);
+	preview.save(&webCamBuffer, "JPG");
 
 	QByteArray header;
 	QDataStream stream(&header, QIODevice::WriteOnly);
@@ -63,7 +87,15 @@ void Agent::sendCapture(QTcpSocket* socket){
 	socket->write(screenData);
 	socket->write(webCamData);
 
-	socket->flush().
+	socket->flush();
 
-	std::cout << "Sucessfully on send " << screenSize << " bytes" << std::endl;
+	std::cout << "Sucessfully on send " << (screenSize + webCamSize) << " bytes" << std::endl;
+}
+
+void Agent::onCameraError(int id, int error, const QString &errorString) {
+	std::cerr << "Camera error: " << errorString.toStdString() << std::endl;
+	
+	QImage fallback(640, 480, QImage::Format_RGB32);
+	fallback.fill(Qt::black);
+	onWebcamImageCaptured(id, fallback);
 }

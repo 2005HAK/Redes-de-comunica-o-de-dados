@@ -9,6 +9,9 @@
 #include <QPixmap>
 #include <QBuffer>
 #include <QDataStream>
+#include <QCamera>
+#include <QImageCapture>
+#include <QMediaCaptureSession>
 #include <iostream>
 
 const QByteArray CLIENT_REQUEST = "CMD_CAPTURE";
@@ -17,11 +20,20 @@ class Agent : public QObject {
 	Q_OBJECT
 	private:
 		QTcpServer* tcpServer;
+		QCamera* camera;
+		QImageCapture* imageCapture;
+		QMediaCaptureSession* captureSession;
+
+		QTcpSocket* currentClientSocket;
+		QByteArray pendingScreenData;
+
 		void sendCapture(QTcpSocket* socket);
 
 	private slots:
 		void onNewConnection();
 		void onReadyRead();
+		void onWebcamImageCaptured(int id, const QImage &preview);
+		void onCameraError(int id, int error, const QString &errorString);
 
 	public:
 		Agent(QObject* parent = nullptr);
