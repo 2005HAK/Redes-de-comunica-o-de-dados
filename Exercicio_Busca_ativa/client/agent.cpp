@@ -17,7 +17,7 @@ void Agent::onNewConnection(){
 	QTcpSocket* clientSocket = tcpServer->nextPendingConnection();
 	
 	connect(clientSocket, &QTcpSocket::readyRead, this, &Agent::onReadyRead);
-	connect(clientSocket, &QTcpSocket::disconnected, this, &QObject::deleteLater);
+	connect(clientSocket, &QTcpSocket::disconnected, clientSocket, &QObject::deleteLater);
 }
 
 void Agent::onReadyRead(){
@@ -63,9 +63,7 @@ void Agent::sendCapture(QTcpSocket* socket){
 	socket->write(screenData);
 	socket->write(webCamData);
 
-	socket->waitForBytesWritten(3000);
+	socket->flush().
 
 	std::cout << "Sucessfully on send " << screenSize << " bytes" << std::endl;
-
-	socket->disconnectFromHost();
 }
