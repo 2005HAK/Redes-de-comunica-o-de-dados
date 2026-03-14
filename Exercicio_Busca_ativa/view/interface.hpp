@@ -9,11 +9,27 @@
 #include <QVBoxLayout>
 #include <QLabel>
 #include <QSpinBox>
-#include "../controller/devicecontroller.hpp"
+#include "../controller/deviceController.hpp"
 
 class Interface : public QMainWindow {
 	private:
 		DeviceController* controller;
+
+		QTabWidget* tabWidget;
+
+		QLineEdit* nameInput;
+		QLineEdit* ipInput;
+		QLineEdit* macInput;
+
+		QListWidget* deviceList;
+
+		QPushButton* registerButton;
+		QPushButton* captureButton;
+		QPushButton* toggleStatusButton;
+		QSpinBox* intervalInput;
+
+		void setupUI();
+		void refreshDeviceList();
 
 		void handleRegister();
 		void handleDeviceSelection(QListWidgetItem *item);

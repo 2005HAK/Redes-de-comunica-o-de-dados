@@ -37,7 +37,7 @@ class DeviceController {
 		 * @param ip O endereço IP do dispositivo.
 		 * @param mac O endereço MAC do dispositivo.
 		 */
-		void addDevice(const std::string& name, const std::string& ip, const std::string& mac);
+		int addDevice(const std::string& name, const std::string& ip, const std::string& mac);
 
 		/**
 		 * @brief Remove um dispositivo da lista de dispositivos gerenciados.

@@ -2,6 +2,7 @@
 #define DEViCE_HPP
 
 #include <string>
+#include <cstdint>
 
 class Device {
 	private:
@@ -25,7 +26,7 @@ class Device {
 
 		void setInterval(uint16_t min) { this->captureInterval = min; }
 
-		bool setActive(bool active) { this->active = active; }
+		void setActive(bool active) { this->active = active; }
 };
 
 #endif // DEVICE_HPP

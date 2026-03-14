@@ -1,9 +1,9 @@
 #include "deviceController.hpp"
 
-void DeviceController::addDevice(const std::string& name, const std::string& ip, const std::string& mac) {
+int DeviceController::addDevice(const std::string& name, const std::string& ip, const std::string& mac) {
 	if(name.empty() || ip.empty() || mac.empty()) {
 		std::cerr << "Error: All fields must be filled." << std::endl;
-		return;
+		return 0;
 	}
 
 
@@ -13,21 +13,23 @@ void DeviceController::addDevice(const std::string& name, const std::string& ip,
 	for(const auto& device : devices) {
 		if(device.getIp() == ip) {
 			std::cerr << "Error: A device with this IP already exists." << std::endl;
-			return;
+			return 0;
 		}
 
 		if(device.getMac() == mac) {
 			std::cerr << "Error: A device with this MAC already exists." << std::endl;
-			return;
+			return 0;
 		}
 
 		if(device.getName() == name) {
 			std::cerr << "Error: A device with this name already exists." << std::endl;
-			return;
+			return 0;
 		}
 	}
 
 	devices.emplace_back(name, ip, mac);
+
+	return 1;
 }
 
 void DeviceController::removeDevice(const std::string& name) {
