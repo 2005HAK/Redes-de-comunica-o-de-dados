@@ -21,7 +21,6 @@ class Agent : public QObject {
 		QTcpServer* tcpServer;
 		QCamera* camera;
 		QCameraImageCapture* imageCapture;
-		QMediaCaptureSession* captureSession;
 
 		QTcpSocket* currentClientSocket;
 		QByteArray pendingScreenData;
