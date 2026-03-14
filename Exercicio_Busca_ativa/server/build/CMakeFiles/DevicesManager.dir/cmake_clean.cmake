@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "DevicesManager_autogen"
   "CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o.d"
+  "CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o"
+  "CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o.d"
   "CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o"
   "CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o.d"
   "CMakeFiles/DevicesManager.dir/main.cpp.o"

@@ -1,6 +1,6 @@
 #include "interface.hpp"
 
-Interface::Interface(DeviceController& controller, QWidget *parent) : QMainWindow(parent), controller(&controller){
+Interface::Interface(DeviceController& controller, CaptureController& captureController, QWidget *parent) : QMainWindow(parent), controller(&controller), captureController(&captureController){
 	this->setupUI();
 
 	this->resize(400, 300);
@@ -153,7 +153,11 @@ void Interface::handleSetInterval() {
 }
 
 void Interface::handleInstantCapture() {
+	if(currentDeviceIndex < 0) return;
 
+	std::vector<Device> devices = controller->getDevices();
+
+	captureController->captureNow(devices[currentDeviceIndex]);
 }
 
 void Interface::handleToggleStatus() {

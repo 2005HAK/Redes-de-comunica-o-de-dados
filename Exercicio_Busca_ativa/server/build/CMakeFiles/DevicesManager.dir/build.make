@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa
+CMAKE_SOURCE_DIR = /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build
+CMAKE_BINARY_DIR = /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DevicesManager.dir/depend.make
@@ -72,9 +72,9 @@ include CMakeFiles/DevicesManager.dir/flags.make
 DevicesManager_autogen/timestamp: /usr/lib/qt5/bin/moc
 DevicesManager_autogen/timestamp: /usr/lib/qt5/bin/uic
 DevicesManager_autogen/timestamp: CMakeFiles/DevicesManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target DevicesManager"
-	/usr/bin/cmake -E cmake_autogen /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build/CMakeFiles/DevicesManager_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build/DevicesManager_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target DevicesManager"
+	/usr/bin/cmake -E cmake_autogen /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/DevicesManager_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/timestamp
 
 CMakeFiles/DevicesManager.dir/codegen:
 .PHONY : CMakeFiles/DevicesManager.dir/codegen
@@ -82,65 +82,80 @@ CMakeFiles/DevicesManager.dir/codegen:
 CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o: CMakeFiles/DevicesManager.dir/flags.make
 CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o: DevicesManager_autogen/mocs_compilation.cpp
 CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o: CMakeFiles/DevicesManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o -MF CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o -c /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build/DevicesManager_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o -MF CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o -c /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/mocs_compilation.cpp
 
 CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build/DevicesManager_autogen/mocs_compilation.cpp > CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/mocs_compilation.cpp > CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build/DevicesManager_autogen/mocs_compilation.cpp -o CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/mocs_compilation.cpp -o CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/DevicesManager.dir/main.cpp.o: CMakeFiles/DevicesManager.dir/flags.make
-CMakeFiles/DevicesManager.dir/main.cpp.o: /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/main.cpp
+CMakeFiles/DevicesManager.dir/main.cpp.o: /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/main.cpp
 CMakeFiles/DevicesManager.dir/main.cpp.o: CMakeFiles/DevicesManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DevicesManager.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DevicesManager.dir/main.cpp.o -MF CMakeFiles/DevicesManager.dir/main.cpp.o.d -o CMakeFiles/DevicesManager.dir/main.cpp.o -c /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DevicesManager.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DevicesManager.dir/main.cpp.o -MF CMakeFiles/DevicesManager.dir/main.cpp.o.d -o CMakeFiles/DevicesManager.dir/main.cpp.o -c /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/main.cpp
 
 CMakeFiles/DevicesManager.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DevicesManager.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/main.cpp > CMakeFiles/DevicesManager.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/main.cpp > CMakeFiles/DevicesManager.dir/main.cpp.i
 
 CMakeFiles/DevicesManager.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DevicesManager.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/main.cpp -o CMakeFiles/DevicesManager.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/main.cpp -o CMakeFiles/DevicesManager.dir/main.cpp.s
 
 CMakeFiles/DevicesManager.dir/view/interface.cpp.o: CMakeFiles/DevicesManager.dir/flags.make
-CMakeFiles/DevicesManager.dir/view/interface.cpp.o: /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/view/interface.cpp
+CMakeFiles/DevicesManager.dir/view/interface.cpp.o: /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/interface.cpp
 CMakeFiles/DevicesManager.dir/view/interface.cpp.o: CMakeFiles/DevicesManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DevicesManager.dir/view/interface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DevicesManager.dir/view/interface.cpp.o -MF CMakeFiles/DevicesManager.dir/view/interface.cpp.o.d -o CMakeFiles/DevicesManager.dir/view/interface.cpp.o -c /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/view/interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DevicesManager.dir/view/interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DevicesManager.dir/view/interface.cpp.o -MF CMakeFiles/DevicesManager.dir/view/interface.cpp.o.d -o CMakeFiles/DevicesManager.dir/view/interface.cpp.o -c /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/interface.cpp
 
 CMakeFiles/DevicesManager.dir/view/interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DevicesManager.dir/view/interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/view/interface.cpp > CMakeFiles/DevicesManager.dir/view/interface.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/interface.cpp > CMakeFiles/DevicesManager.dir/view/interface.cpp.i
 
 CMakeFiles/DevicesManager.dir/view/interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DevicesManager.dir/view/interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/view/interface.cpp -o CMakeFiles/DevicesManager.dir/view/interface.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/interface.cpp -o CMakeFiles/DevicesManager.dir/view/interface.cpp.s
 
 CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o: CMakeFiles/DevicesManager.dir/flags.make
-CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o: /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/controller/deviceController.cpp
+CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o: /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.cpp
 CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o: CMakeFiles/DevicesManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o -MF CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o.d -o CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o -c /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/controller/deviceController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o -MF CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o.d -o CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o -c /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.cpp
 
 CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/controller/deviceController.cpp > CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.cpp > CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.i
 
 CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/controller/deviceController.cpp -o CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.cpp -o CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.s
+
+CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o: CMakeFiles/DevicesManager.dir/flags.make
+CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o: /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.cpp
+CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o: CMakeFiles/DevicesManager.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o -MF CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o.d -o CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o -c /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.cpp
+
+CMakeFiles/DevicesManager.dir/controller/captureController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DevicesManager.dir/controller/captureController.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.cpp > CMakeFiles/DevicesManager.dir/controller/captureController.cpp.i
+
+CMakeFiles/DevicesManager.dir/controller/captureController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DevicesManager.dir/controller/captureController.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.cpp -o CMakeFiles/DevicesManager.dir/controller/captureController.cpp.s
 
 # Object files for target DevicesManager
 DevicesManager_OBJECTS = \
 "CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/DevicesManager.dir/main.cpp.o" \
 "CMakeFiles/DevicesManager.dir/view/interface.cpp.o" \
-"CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o"
+"CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o" \
+"CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o"
 
 # External object files for target DevicesManager
 DevicesManager_EXTERNAL_OBJECTS =
@@ -149,6 +164,7 @@ DevicesManager: CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compil
 DevicesManager: CMakeFiles/DevicesManager.dir/main.cpp.o
 DevicesManager: CMakeFiles/DevicesManager.dir/view/interface.cpp.o
 DevicesManager: CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o
+DevicesManager: CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o
 DevicesManager: CMakeFiles/DevicesManager.dir/build.make
 DevicesManager: CMakeFiles/DevicesManager.dir/compiler_depend.ts
 DevicesManager: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.15
@@ -156,7 +172,7 @@ DevicesManager: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.15
 DevicesManager: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.15
 DevicesManager: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.15
 DevicesManager: CMakeFiles/DevicesManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable DevicesManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable DevicesManager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DevicesManager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +184,6 @@ CMakeFiles/DevicesManager.dir/clean:
 .PHONY : CMakeFiles/DevicesManager.dir/clean
 
 CMakeFiles/DevicesManager.dir/depend: DevicesManager_autogen/timestamp
-	cd /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build/CMakeFiles/DevicesManager.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/DevicesManager.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/DevicesManager.dir/depend
 

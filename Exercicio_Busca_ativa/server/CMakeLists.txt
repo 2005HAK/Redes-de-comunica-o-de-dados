@@ -16,6 +16,7 @@ set(SOURCES
     main.cpp
     view/interface.cpp
     controller/deviceController.cpp
+    controller/captureController.cpp
 )
 
 add_executable(${PROJECT_NAME} ${SOURCES})

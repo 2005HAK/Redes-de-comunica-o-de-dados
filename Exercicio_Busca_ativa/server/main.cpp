@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
 
     DeviceController controller;
     CaptureController captureController(controller);
-    Interface window(controller);
+    Interface window(controller, captureController);
     window.show();
 
     return app.exec();

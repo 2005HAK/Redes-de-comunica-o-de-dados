@@ -11,12 +11,14 @@
 #include <QSpinBox>
 #include <QMessageBox>
 #include "../controller/deviceController.hpp"
+#include "../controller/captureController.hpp"
 
 class Interface : public QMainWindow {
 	Q_OBJECT
 
 	private:
 		DeviceController* controller;
+		CaptureController* captureController;
 
 		QTabWidget* tabWidget;
 
@@ -53,7 +55,7 @@ class Interface : public QMainWindow {
 		void handleSetInterval();
 
 	public:
-		Interface(DeviceController& controller, QWidget *parent = nullptr);
+		Interface(DeviceController& controller, CaptureController& captureController, QWidget *parent = nullptr);
 
 		~Interface();
 };

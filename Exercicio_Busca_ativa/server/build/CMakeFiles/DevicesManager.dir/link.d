@@ -6,6 +6,7 @@ DevicesManager: \
   CMakeFiles/DevicesManager.dir/main.cpp.o \
   CMakeFiles/DevicesManager.dir/view/interface.cpp.o \
   CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o \
+  CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o \
   /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.15 \
   /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.15 \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/libsqlite3.so \
@@ -117,6 +118,8 @@ CMakeFiles/DevicesManager.dir/main.cpp.o:
 CMakeFiles/DevicesManager.dir/view/interface.cpp.o:
 
 CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o:
+
+CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.15:
 

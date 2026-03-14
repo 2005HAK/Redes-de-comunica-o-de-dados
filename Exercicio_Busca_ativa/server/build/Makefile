@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa
+CMAKE_SOURCE_DIR = /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build
+CMAKE_BINARY_DIR = /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build/CMakeFiles /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -179,6 +179,30 @@ DevicesManager_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.s
 .PHONY : DevicesManager_autogen/mocs_compilation.cpp.s
 
+controller/captureController.o: controller/captureController.cpp.o
+.PHONY : controller/captureController.o
+
+# target to build an object file
+controller/captureController.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o
+.PHONY : controller/captureController.cpp.o
+
+controller/captureController.i: controller/captureController.cpp.i
+.PHONY : controller/captureController.i
+
+# target to preprocess a source file
+controller/captureController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/controller/captureController.cpp.i
+.PHONY : controller/captureController.cpp.i
+
+controller/captureController.s: controller/captureController.cpp.s
+.PHONY : controller/captureController.s
+
+# target to generate assembly for a file
+controller/captureController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/controller/captureController.cpp.s
+.PHONY : controller/captureController.cpp.s
+
 controller/deviceController.o: controller/deviceController.cpp.o
 .PHONY : controller/deviceController.o
 
@@ -265,6 +289,9 @@ help:
 	@echo "... DevicesManager_autogen/mocs_compilation.o"
 	@echo "... DevicesManager_autogen/mocs_compilation.i"
 	@echo "... DevicesManager_autogen/mocs_compilation.s"
+	@echo "... controller/captureController.o"
+	@echo "... controller/captureController.i"
+	@echo "... controller/captureController.s"
 	@echo "... controller/deviceController.o"
 	@echo "... controller/deviceController.i"
 	@echo "... controller/deviceController.s"
