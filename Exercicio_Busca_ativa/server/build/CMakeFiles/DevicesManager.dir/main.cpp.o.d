@@ -361,8 +361,36 @@ CMakeFiles/DevicesManager.dir/main.cpp.o: \
  /usr/include/c++/14/bits/istream.tcc /usr/include/sqlite3.h \
  /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/model/device.hpp \
  /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/../controller/captureController.hpp \
- /usr/include/c++/14/thread /usr/include/c++/14/bits/std_thread.h \
- /usr/include/c++/14/bits/this_thread_sleep.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpSocket \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QMap \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QHostAddress \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qhostaddress.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDataStream \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDir \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDateTime \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QFile \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
  /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/../controller/deviceController.hpp \
  /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.hpp \
  /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.hpp

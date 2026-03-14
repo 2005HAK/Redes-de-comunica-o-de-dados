@@ -43,6 +43,9 @@ DevicesManager: \
   /lib/i386-linux-gnu/libz.so.1 \
   /usr/lib/i386-linux-gnu/libz.so.1 \
   /lib/x86_64-linux-gnu/libz.so.1 \
+  /lib/i386-linux-gnu/libgssapi_krb5.so.2 \
+  /usr/lib/i386-linux-gnu/libgssapi_krb5.so.2 \
+  /lib/x86_64-linux-gnu/libgssapi_krb5.so.2 \
   /lib/x86_64-linux-gnu/libdouble-conversion.so.3 \
   /lib/x86_64-linux-gnu/libicui18n.so.76 \
   /lib/x86_64-linux-gnu/libicuuc.so.76 \
@@ -64,6 +67,18 @@ DevicesManager: \
   /usr/lib/i386-linux-gnu/libharfbuzz.so.0 \
   /lib/x86_64-linux-gnu/libharfbuzz.so.0 \
   /lib/x86_64-linux-gnu/libmd4c.so.0 \
+  /lib/i386-linux-gnu/libkrb5.so.3 \
+  /usr/lib/i386-linux-gnu/libkrb5.so.3 \
+  /lib/x86_64-linux-gnu/libkrb5.so.3 \
+  /lib/i386-linux-gnu/libk5crypto.so.3 \
+  /usr/lib/i386-linux-gnu/libk5crypto.so.3 \
+  /lib/x86_64-linux-gnu/libk5crypto.so.3 \
+  /lib/i386-linux-gnu/libcom_err.so.2 \
+  /usr/lib/i386-linux-gnu/libcom_err.so.2 \
+  /lib/x86_64-linux-gnu/libcom_err.so.2 \
+  /lib/i386-linux-gnu/libkrb5support.so.0 \
+  /usr/lib/i386-linux-gnu/libkrb5support.so.0 \
+  /lib/x86_64-linux-gnu/libkrb5support.so.0 \
   /lib/x86_64-linux-gnu/libicudata.so.76 \
   /lib/i386-linux-gnu/libatomic.so.1 \
   /usr/lib/i386-linux-gnu/libatomic.so.1 \
@@ -83,6 +98,12 @@ DevicesManager: \
   /lib/i386-linux-gnu/libgraphite2.so.3 \
   /usr/lib/i386-linux-gnu/libgraphite2.so.3 \
   /lib/x86_64-linux-gnu/libgraphite2.so.3 \
+  /lib/i386-linux-gnu/libkeyutils.so.1 \
+  /usr/lib/i386-linux-gnu/libkeyutils.so.1 \
+  /lib/x86_64-linux-gnu/libkeyutils.so.1 \
+  /lib/i386-linux-gnu/libresolv.so.2 \
+  /usr/lib/i386-linux-gnu/libresolv.so.2 \
+  /lib/x86_64-linux-gnu/libresolv.so.2 \
   /lib/i386-linux-gnu/libX11.so.6 \
   /usr/lib/i386-linux-gnu/libX11.so.6 \
   /lib/x86_64-linux-gnu/libX11.so.6 \
@@ -193,6 +214,12 @@ CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o:
 
 /lib/x86_64-linux-gnu/libz.so.1:
 
+/lib/i386-linux-gnu/libgssapi_krb5.so.2:
+
+/usr/lib/i386-linux-gnu/libgssapi_krb5.so.2:
+
+/lib/x86_64-linux-gnu/libgssapi_krb5.so.2:
+
 /lib/x86_64-linux-gnu/libdouble-conversion.so.3:
 
 /lib/x86_64-linux-gnu/libicui18n.so.76:
@@ -235,6 +262,30 @@ CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o:
 
 /lib/x86_64-linux-gnu/libmd4c.so.0:
 
+/lib/i386-linux-gnu/libkrb5.so.3:
+
+/usr/lib/i386-linux-gnu/libkrb5.so.3:
+
+/lib/x86_64-linux-gnu/libkrb5.so.3:
+
+/lib/i386-linux-gnu/libk5crypto.so.3:
+
+/usr/lib/i386-linux-gnu/libk5crypto.so.3:
+
+/lib/x86_64-linux-gnu/libk5crypto.so.3:
+
+/lib/i386-linux-gnu/libcom_err.so.2:
+
+/usr/lib/i386-linux-gnu/libcom_err.so.2:
+
+/lib/x86_64-linux-gnu/libcom_err.so.2:
+
+/lib/i386-linux-gnu/libkrb5support.so.0:
+
+/usr/lib/i386-linux-gnu/libkrb5support.so.0:
+
+/lib/x86_64-linux-gnu/libkrb5support.so.0:
+
 /lib/x86_64-linux-gnu/libicudata.so.76:
 
 /lib/i386-linux-gnu/libatomic.so.1:
@@ -272,6 +323,18 @@ CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o:
 /usr/lib/i386-linux-gnu/libgraphite2.so.3:
 
 /lib/x86_64-linux-gnu/libgraphite2.so.3:
+
+/lib/i386-linux-gnu/libkeyutils.so.1:
+
+/usr/lib/i386-linux-gnu/libkeyutils.so.1:
+
+/lib/x86_64-linux-gnu/libkeyutils.so.1:
+
+/lib/i386-linux-gnu/libresolv.so.2:
+
+/usr/lib/i386-linux-gnu/libresolv.so.2:
+
+/lib/x86_64-linux-gnu/libresolv.so.2:
 
 /lib/i386-linux-gnu/libX11.so.6:
 

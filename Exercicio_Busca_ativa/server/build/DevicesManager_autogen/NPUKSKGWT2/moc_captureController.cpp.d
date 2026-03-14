@@ -1,6 +1,5 @@
-/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/OTUN7GXZT4/moc_interface.cpp: /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/interface.hpp \
+/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/NPUKSKGWT2/moc_captureController.cpp: /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.hpp \
   /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/moc_predefs.h \
-  /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.hpp \
   /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.hpp \
   /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/model/device.hpp \
   /usr/include/alloca.h \
@@ -288,7 +287,6 @@
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
@@ -317,14 +315,11 @@
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
@@ -333,18 +328,14 @@
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
@@ -361,33 +352,6 @@
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QHostAddress \
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpSocket \
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h \
@@ -395,45 +359,6 @@
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h \
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListWidget \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpinBox \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTabWidget \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistview.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistwidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qspinbox.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/syscall.h \

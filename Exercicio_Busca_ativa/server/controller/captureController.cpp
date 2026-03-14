@@ -15,7 +15,7 @@ void CaptureController::captureNow(const Device& device) {
 	QTcpSocket* socket = new QTcpSocket(this);
 
 	connect(socket, &QTcpSocket::readyRead, this, &CaptureController::onReadyRead);
-	connect(socket, QOverload<QAbstractSocket::SocketError>::of(&QTcpSocket::error), this, &CaptureController::onSocketError);
+	connect(socket, &QTcpSocket::errorOccurred, this, &CaptureController::onSocketError);
 
 	socket->connectToHost(QString::fromStdString(device.getIp()), 55555);
 
@@ -25,7 +25,7 @@ void CaptureController::captureNow(const Device& device) {
 }
 
 void CaptureController::updateSchedules(){
-	std::vector<Devices> devices = deviceController->getDevices();
+	std::vector<Device> devices = deviceController->getDevices();
 
 	qDeleteAll(captureTimers);
 	captureTimers.clear();
@@ -52,18 +52,18 @@ void CaptureController::onReadyRead(){
 
 	socketBuffers[socket].append(socket->readAll());
 
-	QbyteArray& buffer = socketBuffers[socket];
+	QByteArray& buffer = socketBuffers[socket];
 
 	if(buffer.size() < 8) return;
 
 	QDataStream stream(buffer);
 
-	quint32_t screenSize = 0;
-	quint32_t webCamSize = 0;
+	quint32 screenSize = 0;
+	quint32 webCamSize = 0;
 
 	stream >> screenSize >> webCamSize;
 
-	quint32_t totalExpectedSize = 8 + screenSize + webCamSize;
+	quint32 totalExpectedSize = 8 + screenSize + webCamSize;
 
 	if(buffer.size() >= totalExpectedSize) {
 		std::cout << "Complete data received from " << socket->peerAddress().toString().toStdString() << std::endl;

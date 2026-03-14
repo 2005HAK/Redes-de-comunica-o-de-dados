@@ -6,11 +6,16 @@
 #include <QTimer>
 #include <QMap>
 #include <QString>
+#include <QHostAddress>
+#include <QDataStream>
+#include <QDir>         
+#include <QDateTime>    
+#include <QFile>        
 #include "deviceController.hpp"
 
 const QByteArray CLIENT_REQUEST = "CMD_CAPTURE\n";
 
-class CaptureController {
+class CaptureController : public QObject {
 	Q_OBJECT
 
 	private:
