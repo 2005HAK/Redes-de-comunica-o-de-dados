@@ -7,7 +7,7 @@ Agent::Agent(QObject* parent) : QObject(parent){
 	imageCapture = new QCameraImageCapture(camera);
 
 
-	connect(imageCapture, &QImageCapture::imageCaptured, this, &Agent::onWebcamImageCaptured);
+	connect(imageCapture, &QCameraImageCapture::imageCaptured, this, &Agent::onWebcamImageCaptured);
 	connect(imageCapture, QOverload<int, QCameraImageCapture::Error, const QString &>::of(&QCameraImageCapture::error), this, &Agent::onCameraError);
 
 	connect(tcpServer, &QTcpServer::newConnection, this, &Agent::onNewConnection);
