@@ -39,6 +39,13 @@ void Agent::sendCapture(QTcpSocket* socket){
 
 	QPixmap originalPixmap = screen->grabWindow(0);
 
+	if (originalPixmap.isNull()) {
+		std::cerr << "Aviso: Captura bloqueada pelo SO. A gerar ecrã preto." << std::endl;
+
+		originalPixmap = QPixmap(800, 600);
+		originalPixmap.fill(Qt::black);
+	}
+
 	QByteArray screenData;
 	QBuffer screenBuffer(&screenData);
 	screenBuffer.open(QIODevice::WriteOnly);

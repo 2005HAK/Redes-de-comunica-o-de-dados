@@ -8,4 +8,4 @@ cd build
 cmake ..
 make
 
-./DeviceAgent
+QT_QPA_PLATFORM=xcb ./DeviceAgent

@@ -1,3 +1,3 @@
 cd build
 
-./DeviceAgent
+QT_QPA_PLATFORM=xcb ./DeviceAgent
