@@ -21,7 +21,7 @@ class Agent : public QObject {
 	private:
 		QTcpServer* tcpServer;
 		QCamera* camera;
-		QImageCapture* imageCapture;
+		QCameraImageCapture* imageCapture;
 		QMediaCaptureSession* captureSession;
 
 		QTcpSocket* currentClientSocket;

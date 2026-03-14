@@ -4,14 +4,11 @@ Agent::Agent(QObject* parent) : QObject(parent){
 	tcpServer = new QTcpServer(this);
 
 	camera = new QCamera(this);
-	imageCapture = new QImageCapture(this);
-	captureSession = new QMediaCaptureSession(this);
+	imageCapture = new QCameraImageCapture(camera);
 
-	captureSession->setCamera(camera);
-	captureSession->setImageCapture(imageCapture);
 
 	connect(imageCapture, &QImageCapture::imageCaptured, this, &Agent::onWebcamImageCaptured);
-	connect(imageCapture, &QImageCapture::errorOccurred, this, &Agent::onCameraError);
+	connect(imageCapture, QOverload<int, QCameraImageCapture::Error, const QString &>::of(&QCameraImageCapture::error), this, &Agent::onCameraError);
 
 	connect(tcpServer, &QTcpServer::newConnection, this, &Agent::onNewConnection);
 
@@ -62,6 +59,7 @@ void Agent::sendCapture(QTcpSocket* socket){
 	screenBuffer.open(QIODevice::WriteOnly);
 	originalPixmap.save(&screenBuffer, "JPG");
 
+	camera->setCaptureMode(QCamera::CaptureStillImage);
 	camera->start();
 	imageCapture->capture();
 }
@@ -92,7 +90,7 @@ void Agent::onWebcamImageCaptured(int id, const QImage& preview){
 	std::cout << "Sucessfully on send " << (screenSize + webCamSize) << " bytes" << std::endl;
 }
 
-void Agent::onCameraError(int id, int error, const QString &errorString) {
+void Agent::onCameraError(int id, QCameraImageCapture::Error error, const QString &errorString) {
 	std::cerr << "Camera error: " << errorString.toStdString() << std::endl;
 	
 	QImage fallback(640, 480, QImage::Format_RGB32);
