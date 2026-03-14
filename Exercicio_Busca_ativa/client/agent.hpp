@@ -31,7 +31,7 @@ class Agent : public QObject {
 		void onNewConnection();
 		void onReadyRead();
 		void onWebcamImageCaptured(int id, const QImage &preview);
-		void onCameraError(int id, int error, const QString &errorString);
+		void onCameraError(int id, QCameraImageCapture::Error error, const QString &errorString);
 
 	public:
 		Agent(QObject* parent = nullptr);
