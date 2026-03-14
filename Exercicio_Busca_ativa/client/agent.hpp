@@ -11,7 +11,6 @@
 #include <QDataStream>
 #include <QCamera>
 #include <QCameraImageCapture>
-#include <QMediaCaptureSession>
 #include <iostream>
 
 const QByteArray CLIENT_REQUEST = "CMD_CAPTURE";
