@@ -10,7 +10,7 @@
 #include <QBuffer>
 #include <QDataStream>
 #include <QCamera>
-#include <QImageCapture>
+#include <QCameraImageCapture>
 #include <QMediaCaptureSession>
 #include <iostream>
 
