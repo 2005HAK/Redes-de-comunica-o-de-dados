@@ -5,7 +5,7 @@ Agent::Agent(QObject* parent) : QObject(parent){
 
 	connect(tcpServer, &QTcpServer::newConnection, this, &Agent::onNewConnection);
 
-	if(tcpServer->listen(QHostAddress::Any, 12345)) std::cout << "Agent active and listening on port 12345" << std::endl; 
+	if(tcpServer->listen(QHostAddress::Any, 55555)) std::cout << "Agent active and listening on port 12345" << std::endl; 
 	else std::cerr << "Failled to initializes the agent: " << tcpServer->errorString().toStdString() << std::endl; 
 }
 

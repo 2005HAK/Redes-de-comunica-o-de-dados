@@ -17,7 +17,7 @@ void CaptureController::captureNow(const Device& device) {
 	connect(socket, &QTcpSocket::readyRead, this, &CaptureController::onReadyRead);
 	connect(socket, QOverload<QAbstractSocket::SocketError>::of(&QTcpSocket::error), this, &CaptureController::onSocketError);
 
-	socket->connectToHost(QString::fromStdString(device.getIp()), 12345);
+	socket->connectToHost(QString::fromStdString(device.getIp()), 55555);
 
 	connect(socket, &QTcpSocket::connected, [socket]() {
 		socket->write(CLIENT_REQUEST);
