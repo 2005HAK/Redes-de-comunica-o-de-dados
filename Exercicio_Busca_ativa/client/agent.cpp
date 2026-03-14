@@ -54,8 +54,8 @@ void Agent::sendCapture(QTcpSocket* socket){
 		originalPixmap.fill(Qt::black);
 	}
 
-	QByteArray screenData;
-	QBuffer screenBuffer(&screenData);
+	QBuffer screenBuffer(&pendingScreenData);
+	pendingScreenData.clear();
 	screenBuffer.open(QIODevice::WriteOnly);
 	originalPixmap.save(&screenBuffer, "JPG");
 
@@ -77,15 +77,15 @@ void Agent::onWebcamImageCaptured(int id, const QImage& preview){
 
 	QByteArray header;
 	QDataStream stream(&header, QIODevice::WriteOnly);
-	quint32 screenSize = screenData.size();
+	quint32 screenSize = pendingScreenData.size();
 	quint32 webCamSize = webCamData.size();
 	stream << screenSize << webCamSize;
 
-	socket->write(header);
-	socket->write(screenData);
-	socket->write(webCamData);
+	currentClientSocket->write(header);
+	currentClientSocket->write(pendingScreenData);
+	currentClientSocket->write(webCamData);
 
-	socket->flush();
+	currentClientSocket->flush();
 
 	std::cout << "Sucessfully on send " << (screenSize + webCamSize) << " bytes" << std::endl;
 }
