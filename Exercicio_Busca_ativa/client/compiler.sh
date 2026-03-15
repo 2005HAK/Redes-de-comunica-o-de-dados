@@ -10,7 +10,8 @@ make
 
 mkdir -p ~/.local/bin/CaptureScreenClient
 cp DeviceAgent ~/.local/bin/CaptureScreenClient/
+mkdir -p ~/.config/systemd/user/
 cp capturescreenclient.service ~/.config/systemd/user/
 
-systemctl daemon-reload
+systemctl --user daemon-reload
 systemctl --user enable capturescreenclient.service
