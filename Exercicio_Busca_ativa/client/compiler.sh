@@ -8,4 +8,9 @@ cd build
 cmake ..
 make
 
-QT_QPA_PLATFORM=xcb ./DeviceAgent
+mkdir -p ~/.local/bin/CaptureScreenClient
+cp DeviceAgent ~/.local/bin/CaptureScreenClient/
+cp capturescreenclient.service ~/.config/systemd/user/
+
+systemctl daemon-reload
+systemctl --user enable capturescreenclient.service
