@@ -6,9 +6,9 @@ Agent::Agent(QObject* parent) : QObject(parent){
 	camera = new QCamera(this);
 	imageCapture = new QCameraImageCapture(camera);
 
-
 	connect(imageCapture, &QCameraImageCapture::imageCaptured, this, &Agent::onWebcamImageCaptured);
 	connect(imageCapture, QOverload<int, QCameraImageCapture::Error, const QString &>::of(&QCameraImageCapture::error), this, &Agent::onCameraError);
+	connect(imageCapture, &QCameraImageCapture::readyForCaptureChanged, this, &Agent::onCameraReadyForCapture);
 
 	connect(tcpServer, &QTcpServer::newConnection, this, &Agent::onNewConnection);
 
@@ -25,6 +25,10 @@ void Agent::onNewConnection(){
 	
 	connect(clientSocket, &QTcpSocket::readyRead, this, &Agent::onReadyRead);
 	connect(clientSocket, &QTcpSocket::disconnected, clientSocket, &QObject::deleteLater);
+}
+
+void Agent::onCameraReadyForCapture(bool ready) {
+	if(ready) imageCapture->capture();
 }
 
 void Agent::onReadyRead(){
@@ -61,7 +65,6 @@ void Agent::sendCapture(QTcpSocket* socket){
 
 	camera->setCaptureMode(QCamera::CaptureStillImage);
 	camera->start();
-	imageCapture->capture();
 }
 
 void Agent::onWebcamImageCaptured(int id, const QImage& preview){
