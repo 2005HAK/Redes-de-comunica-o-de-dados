@@ -16,3 +16,4 @@ cp capturescreenclient.service ~/.config/systemd/user/
 
 systemctl --user daemon-reload
 systemctl --user enable capturescreenclient.service
+systemctl --user restart capturescreenclient.service
