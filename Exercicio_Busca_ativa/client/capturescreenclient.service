@@ -1,8 +1,10 @@
 [Unit]
 Description=Servico de monitoramento de tela
+After=graphical-session.target
+PartOf=graphical-session.target
 
 [Service]
-ExecStart=~/.local/bin/CaptureScreenClient/DeviceAgent
+ExecStart=%h/.local/bin/CaptureScreenClient/DeviceAgent
 
 Restart=always
 RestartSec=3

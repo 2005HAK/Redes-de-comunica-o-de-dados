@@ -10,6 +10,7 @@ make
 
 mkdir -p ~/.local/bin/CaptureScreenClient
 cp DeviceAgent ~/.local/bin/CaptureScreenClient/
+cd ..
 mkdir -p ~/.config/systemd/user/
 cp capturescreenclient.service ~/.config/systemd/user/
 
