@@ -1,10 +1,15 @@
 #include <QApplication>
-#include "agent.hpp"
+#include "view/interface.hpp"
+#include "controller/deviceController.hpp"
+#include "controller/captureController.hpp"
 
 int main(int argc, char *argv[]) {
-	QApplication app(argc, argv);
+    QApplication app(argc, argv);
 
-	Agent agent;
+    DeviceController controller;
+    CaptureController captureController(controller);
+    Interface window(controller, captureController);
+    window.show();
 
-	return app.exec();
+    return app.exec();
 }

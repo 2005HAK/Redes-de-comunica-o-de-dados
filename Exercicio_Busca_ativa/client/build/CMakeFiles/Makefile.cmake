@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/client/CMakeLists.txt"
+  "/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/CMakeLists.txt"
   "CMakeFiles/3.31.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeSystem.cmake"
@@ -180,13 +180,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"
-  "CMakeFiles/DeviceAgent_autogen.dir/AutogenInfo.json"
+  "CMakeFiles/DevicesManager_autogen.dir/AutogenInfo.json"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/DeviceAgent.dir/DependInfo.cmake"
-  "CMakeFiles/DeviceAgent_autogen_timestamp_deps.dir/DependInfo.cmake"
-  "CMakeFiles/DeviceAgent_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/DevicesManager.dir/DependInfo.cmake"
+  "CMakeFiles/DevicesManager_autogen_timestamp_deps.dir/DependInfo.cmake"
+  "CMakeFiles/DevicesManager_autogen.dir/DependInfo.cmake"
   )

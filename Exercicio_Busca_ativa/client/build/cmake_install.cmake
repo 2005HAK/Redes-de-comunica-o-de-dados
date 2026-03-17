@@ -1,4 +1,4 @@
-# Install script for directory: /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/client
+# Install script for directory: /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,7 +45,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/client/build/install_local_manifest.txt"
+  file(WRITE "/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/client/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
