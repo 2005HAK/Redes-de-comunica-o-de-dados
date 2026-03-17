@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server
+CMAKE_SOURCE_DIR = /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build
+CMAKE_BINARY_DIR = /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/client/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/client/build/CMakeFiles /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/client/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/client/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,122 +117,98 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named DevicesManager
+# Target rules for targets named DeviceAgent
 
 # Build rule for target.
-DevicesManager: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DevicesManager
-.PHONY : DevicesManager
+DeviceAgent: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DeviceAgent
+.PHONY : DeviceAgent
 
 # fast build rule for target.
-DevicesManager/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/build
-.PHONY : DevicesManager/fast
+DeviceAgent/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceAgent.dir/build.make CMakeFiles/DeviceAgent.dir/build
+.PHONY : DeviceAgent/fast
 
 #=============================================================================
-# Target rules for targets named DevicesManager_autogen_timestamp_deps
+# Target rules for targets named DeviceAgent_autogen_timestamp_deps
 
 # Build rule for target.
-DevicesManager_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DevicesManager_autogen_timestamp_deps
-.PHONY : DevicesManager_autogen_timestamp_deps
+DeviceAgent_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DeviceAgent_autogen_timestamp_deps
+.PHONY : DeviceAgent_autogen_timestamp_deps
 
 # fast build rule for target.
-DevicesManager_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager_autogen_timestamp_deps.dir/build.make CMakeFiles/DevicesManager_autogen_timestamp_deps.dir/build
-.PHONY : DevicesManager_autogen_timestamp_deps/fast
+DeviceAgent_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceAgent_autogen_timestamp_deps.dir/build.make CMakeFiles/DeviceAgent_autogen_timestamp_deps.dir/build
+.PHONY : DeviceAgent_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named DevicesManager_autogen
+# Target rules for targets named DeviceAgent_autogen
 
 # Build rule for target.
-DevicesManager_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DevicesManager_autogen
-.PHONY : DevicesManager_autogen
+DeviceAgent_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DeviceAgent_autogen
+.PHONY : DeviceAgent_autogen
 
 # fast build rule for target.
-DevicesManager_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager_autogen.dir/build.make CMakeFiles/DevicesManager_autogen.dir/build
-.PHONY : DevicesManager_autogen/fast
+DeviceAgent_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceAgent_autogen.dir/build.make CMakeFiles/DeviceAgent_autogen.dir/build
+.PHONY : DeviceAgent_autogen/fast
 
-DevicesManager_autogen/mocs_compilation.o: DevicesManager_autogen/mocs_compilation.cpp.o
-.PHONY : DevicesManager_autogen/mocs_compilation.o
-
-# target to build an object file
-DevicesManager_autogen/mocs_compilation.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.o
-.PHONY : DevicesManager_autogen/mocs_compilation.cpp.o
-
-DevicesManager_autogen/mocs_compilation.i: DevicesManager_autogen/mocs_compilation.cpp.i
-.PHONY : DevicesManager_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-DevicesManager_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.i
-.PHONY : DevicesManager_autogen/mocs_compilation.cpp.i
-
-DevicesManager_autogen/mocs_compilation.s: DevicesManager_autogen/mocs_compilation.cpp.s
-.PHONY : DevicesManager_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-DevicesManager_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/DevicesManager_autogen/mocs_compilation.cpp.s
-.PHONY : DevicesManager_autogen/mocs_compilation.cpp.s
-
-controller/captureController.o: controller/captureController.cpp.o
-.PHONY : controller/captureController.o
+DeviceAgent_autogen/mocs_compilation.o: DeviceAgent_autogen/mocs_compilation.cpp.o
+.PHONY : DeviceAgent_autogen/mocs_compilation.o
 
 # target to build an object file
-controller/captureController.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o
-.PHONY : controller/captureController.cpp.o
+DeviceAgent_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceAgent.dir/build.make CMakeFiles/DeviceAgent.dir/DeviceAgent_autogen/mocs_compilation.cpp.o
+.PHONY : DeviceAgent_autogen/mocs_compilation.cpp.o
 
-controller/captureController.i: controller/captureController.cpp.i
-.PHONY : controller/captureController.i
+DeviceAgent_autogen/mocs_compilation.i: DeviceAgent_autogen/mocs_compilation.cpp.i
+.PHONY : DeviceAgent_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-controller/captureController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/controller/captureController.cpp.i
-.PHONY : controller/captureController.cpp.i
+DeviceAgent_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceAgent.dir/build.make CMakeFiles/DeviceAgent.dir/DeviceAgent_autogen/mocs_compilation.cpp.i
+.PHONY : DeviceAgent_autogen/mocs_compilation.cpp.i
 
-controller/captureController.s: controller/captureController.cpp.s
-.PHONY : controller/captureController.s
+DeviceAgent_autogen/mocs_compilation.s: DeviceAgent_autogen/mocs_compilation.cpp.s
+.PHONY : DeviceAgent_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-controller/captureController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/controller/captureController.cpp.s
-.PHONY : controller/captureController.cpp.s
+DeviceAgent_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceAgent.dir/build.make CMakeFiles/DeviceAgent.dir/DeviceAgent_autogen/mocs_compilation.cpp.s
+.PHONY : DeviceAgent_autogen/mocs_compilation.cpp.s
 
-controller/deviceController.o: controller/deviceController.cpp.o
-.PHONY : controller/deviceController.o
+agent.o: agent.cpp.o
+.PHONY : agent.o
 
 # target to build an object file
-controller/deviceController.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o
-.PHONY : controller/deviceController.cpp.o
+agent.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceAgent.dir/build.make CMakeFiles/DeviceAgent.dir/agent.cpp.o
+.PHONY : agent.cpp.o
 
-controller/deviceController.i: controller/deviceController.cpp.i
-.PHONY : controller/deviceController.i
+agent.i: agent.cpp.i
+.PHONY : agent.i
 
 # target to preprocess a source file
-controller/deviceController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.i
-.PHONY : controller/deviceController.cpp.i
+agent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceAgent.dir/build.make CMakeFiles/DeviceAgent.dir/agent.cpp.i
+.PHONY : agent.cpp.i
 
-controller/deviceController.s: controller/deviceController.cpp.s
-.PHONY : controller/deviceController.s
+agent.s: agent.cpp.s
+.PHONY : agent.s
 
 # target to generate assembly for a file
-controller/deviceController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.s
-.PHONY : controller/deviceController.cpp.s
+agent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceAgent.dir/build.make CMakeFiles/DeviceAgent.dir/agent.cpp.s
+.PHONY : agent.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceAgent.dir/build.make CMakeFiles/DeviceAgent.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -240,7 +216,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceAgent.dir/build.make CMakeFiles/DeviceAgent.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -248,32 +224,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeviceAgent.dir/build.make CMakeFiles/DeviceAgent.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-view/interface.o: view/interface.cpp.o
-.PHONY : view/interface.o
-
-# target to build an object file
-view/interface.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/view/interface.cpp.o
-.PHONY : view/interface.cpp.o
-
-view/interface.i: view/interface.cpp.i
-.PHONY : view/interface.i
-
-# target to preprocess a source file
-view/interface.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/view/interface.cpp.i
-.PHONY : view/interface.cpp.i
-
-view/interface.s: view/interface.cpp.s
-.PHONY : view/interface.s
-
-# target to generate assembly for a file
-view/interface.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DevicesManager.dir/build.make CMakeFiles/DevicesManager.dir/view/interface.cpp.s
-.PHONY : view/interface.cpp.s
 
 # Help Target
 help:
@@ -283,24 +235,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... DevicesManager_autogen"
-	@echo "... DevicesManager_autogen_timestamp_deps"
-	@echo "... DevicesManager"
-	@echo "... DevicesManager_autogen/mocs_compilation.o"
-	@echo "... DevicesManager_autogen/mocs_compilation.i"
-	@echo "... DevicesManager_autogen/mocs_compilation.s"
-	@echo "... controller/captureController.o"
-	@echo "... controller/captureController.i"
-	@echo "... controller/captureController.s"
-	@echo "... controller/deviceController.o"
-	@echo "... controller/deviceController.i"
-	@echo "... controller/deviceController.s"
+	@echo "... DeviceAgent_autogen"
+	@echo "... DeviceAgent_autogen_timestamp_deps"
+	@echo "... DeviceAgent"
+	@echo "... DeviceAgent_autogen/mocs_compilation.o"
+	@echo "... DeviceAgent_autogen/mocs_compilation.i"
+	@echo "... DeviceAgent_autogen/mocs_compilation.s"
+	@echo "... agent.o"
+	@echo "... agent.i"
+	@echo "... agent.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... view/interface.o"
-	@echo "... view/interface.i"
-	@echo "... view/interface.s"
 .PHONY : help
 
 

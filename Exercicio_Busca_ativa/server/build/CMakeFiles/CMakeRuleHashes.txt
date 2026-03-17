@@ -1,3 +1,3 @@
 # Hashes of file build rules.
-80f814e6d76e4ff6468def666cc61a38 CMakeFiles/DevicesManager_autogen
-faf5114e99ccd6850eeb19dfd3ba1c6b DevicesManager_autogen/timestamp
+ab62048f47d779a728cf4f6ec4cc5f96 CMakeFiles/DeviceAgent_autogen
+ba8ef958a16145229c0db38bc807eca5 DeviceAgent_autogen/timestamp

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd build
 
-./DevicesManager
+QT_QPA_PLATFORM=xcb ./DeviceAgent
