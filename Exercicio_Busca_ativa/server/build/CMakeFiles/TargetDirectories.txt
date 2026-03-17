@@ -1,5 +1,5 @@
-/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/DevicesManager.dir
-/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/edit_cache.dir
-/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/rebuild_cache.dir
-/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/DevicesManager_autogen_timestamp_deps.dir
-/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/DevicesManager_autogen.dir
+/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/DevicesManager.dir
+/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/edit_cache.dir
+/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/rebuild_cache.dir
+/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/DevicesManager_autogen_timestamp_deps.dir
+/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/DevicesManager_autogen.dir

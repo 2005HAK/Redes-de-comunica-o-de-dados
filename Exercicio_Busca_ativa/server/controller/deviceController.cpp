@@ -5,17 +5,24 @@ DeviceController::DeviceController() {
 }
 
 int DeviceController::addDevice(const std::string& name, const std::string& ip, const std::string& mac) {
-	if(name.empty() || ip.empty() || mac.empty()) {
+	if(name.empty() || ip.empty()) {
 		std::cerr << "Error: All fields must be filled." << std::endl;
 		return 0;
 	}
 
+	if(name.length() < 4){
+		std::cerr << "Error: The name must have minimum 4 characters";
+		return 2;
+	}
 
-	// validar o formato do ip e do mac
-
+	std::regex ipRegex(R"(^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$)");
+	if(!std::regex_match(ip, ipRegex)) {
+		std::cerr << "Error: Invalid IP address format." << std::endl;
+		return 3;
+	}
 
 	for(const auto& device : devices) {
-		if(device.getIp() == ip || device.getName() == name || device.getMac() == mac) {
+		if(device.getIp() == ip || device.getName() == name || (device.getMac() == mac ? !device.getMac().empty() : false)) {
 			std::cerr << "Error: A device with this IP, name, or MAC already exists." << std::endl;
 			return 0;
 		}

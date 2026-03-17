@@ -1,7 +1,7 @@
 CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o: \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.cpp \
+ /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.cpp \
  /usr/include/stdc-predef.h \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.hpp \
+ /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.hpp \
  /usr/include/c++/14/iostream /usr/include/c++/14/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
@@ -165,7 +165,44 @@ CMakeFiles/DevicesManager.dir/controller/deviceController.cpp.o: \
  /usr/include/c++/14/bits/stl_vector.h \
  /usr/include/c++/14/bits/stl_bvector.h \
  /usr/include/c++/14/bits/vector.tcc /usr/include/sqlite3.h \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/model/device.hpp \
+ /usr/include/c++/14/regex /usr/include/c++/14/bitset \
+ /usr/include/c++/14/locale \
+ /usr/include/c++/14/bits/locale_facets_nonio.h /usr/include/c++/14/ctime \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/14/bits/codecvt.h \
+ /usr/include/c++/14/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/14/bits/locale_conv.h /usr/include/c++/14/sstream \
+ /usr/include/c++/14/bits/sstream.tcc /usr/include/c++/14/stack \
+ /usr/include/c++/14/deque /usr/include/c++/14/bits/stl_deque.h \
+ /usr/include/c++/14/bits/deque.tcc /usr/include/c++/14/bits/stl_stack.h \
+ /usr/include/c++/14/ext/aligned_buffer.h \
+ /usr/include/c++/14/bits/shared_ptr.h \
+ /usr/include/c++/14/bits/shared_ptr_base.h \
+ /usr/include/c++/14/bits/allocated_ptr.h \
+ /usr/include/c++/14/bits/unique_ptr.h \
+ /usr/include/c++/14/ext/concurrence.h \
+ /usr/include/c++/14/bits/std_function.h \
+ /usr/include/c++/14/bits/stl_algo.h \
+ /usr/include/c++/14/bits/algorithmfwd.h \
+ /usr/include/c++/14/bits/stl_heap.h \
+ /usr/include/c++/14/bits/uniform_int_dist.h \
+ /usr/include/c++/14/bits/stl_tempbuf.h \
+ /usr/include/c++/14/bits/stl_tree.h \
+ /usr/include/c++/14/bits/node_handle.h \
+ /usr/include/c++/14/bits/stl_map.h \
+ /usr/include/c++/14/bits/regex_constants.h \
+ /usr/include/c++/14/bits/regex_error.h \
+ /usr/include/c++/14/bits/regex_automaton.h \
+ /usr/include/c++/14/bits/regex_automaton.tcc \
+ /usr/include/c++/14/bits/regex_scanner.h \
+ /usr/include/c++/14/bits/regex_scanner.tcc \
+ /usr/include/c++/14/bits/regex_compiler.h \
+ /usr/include/c++/14/bits/regex_compiler.tcc \
+ /usr/include/c++/14/bits/regex.h /usr/include/c++/14/bits/regex.tcc \
+ /usr/include/c++/14/bits/regex_executor.h \
+ /usr/include/c++/14/bits/regex_executor.tcc \
+ /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/model/device.hpp \
  /usr/include/c++/14/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/14/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

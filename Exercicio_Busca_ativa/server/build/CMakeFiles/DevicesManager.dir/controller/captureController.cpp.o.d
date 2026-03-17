@@ -1,7 +1,7 @@
 CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o: \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.cpp \
+ /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.cpp \
  /usr/include/stdc-predef.h \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.hpp \
+ /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
@@ -294,7 +294,7 @@ CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFile \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.hpp \
+ /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.hpp \
  /usr/include/c++/14/iostream /usr/include/c++/14/ostream \
  /usr/include/c++/14/ios /usr/include/c++/14/bits/basic_ios.h \
  /usr/include/c++/14/bits/locale_facets.h /usr/include/c++/14/cwctype \
@@ -305,4 +305,26 @@ CMakeFiles/DevicesManager.dir/controller/captureController.cpp.o: \
  /usr/include/c++/14/bits/basic_ios.tcc \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc /usr/include/sqlite3.h \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/model/device.hpp
+ /usr/include/c++/14/regex /usr/include/c++/14/bitset \
+ /usr/include/c++/14/locale \
+ /usr/include/c++/14/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/14/bits/codecvt.h \
+ /usr/include/c++/14/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/14/bits/locale_conv.h /usr/include/c++/14/sstream \
+ /usr/include/c++/14/bits/sstream.tcc /usr/include/c++/14/stack \
+ /usr/include/c++/14/deque /usr/include/c++/14/bits/stl_deque.h \
+ /usr/include/c++/14/bits/deque.tcc /usr/include/c++/14/bits/stl_stack.h \
+ /usr/include/c++/14/bits/regex_constants.h \
+ /usr/include/c++/14/bits/regex_error.h \
+ /usr/include/c++/14/bits/regex_automaton.h \
+ /usr/include/c++/14/bits/regex_automaton.tcc \
+ /usr/include/c++/14/bits/regex_scanner.h \
+ /usr/include/c++/14/bits/regex_scanner.tcc \
+ /usr/include/c++/14/bits/regex_compiler.h \
+ /usr/include/c++/14/bits/regex_compiler.tcc \
+ /usr/include/c++/14/bits/regex.h /usr/include/c++/14/bits/regex.tcc \
+ /usr/include/c++/14/bits/regex_executor.h \
+ /usr/include/c++/14/bits/regex_executor.tcc \
+ /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/model/device.hpp

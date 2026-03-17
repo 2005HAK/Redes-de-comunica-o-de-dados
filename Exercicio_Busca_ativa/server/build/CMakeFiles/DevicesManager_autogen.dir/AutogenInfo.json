@@ -1,15 +1,15 @@
 {
-	"BUILD_DIR" : "/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen",
-	"CMAKE_BINARY_DIR" : "/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server",
+	"BUILD_DIR" : "/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen",
+	"CMAKE_BINARY_DIR" : "/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server",
 	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/CMakeLists.txt",
+		"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/CMakeLists.txt",
 		"/usr/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeSystem.cmake.in",
-		"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/3.31.6/CMakeSystem.cmake",
+		"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/3.31.6/CMakeSystem.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeUnixFindMake.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/share/cmake-3.31/Modules/Platform/Linux-Initialize.cmake",
@@ -65,7 +65,7 @@
 		"/usr/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake",
 		"/usr/share/cmake-3.31/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in",
-		"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/3.31.6/CMakeCCompiler.cmake",
+		"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/3.31.6/CMakeCCompiler.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeDetermineCompiler.cmake",
 		"/usr/share/cmake-3.31/Modules/Platform/Linux-Determine-CXX.cmake",
@@ -116,7 +116,7 @@
 		"/usr/share/cmake-3.31/Modules/CMakeFindBinUtils.cmake",
 		"/usr/share/cmake-3.31/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in",
-		"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
+		"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeGenericSystem.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake",
@@ -142,7 +142,7 @@
 		"/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake",
 		"/usr/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeCCompiler.cmake.in",
-		"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/3.31.6/CMakeCCompiler.cmake",
+		"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/3.31.6/CMakeCCompiler.cmake",
 		"/usr/share/cmake-3.31/Modules/Internal/CMakeCLinkerInformation.cmake",
 		"/usr/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake",
 		"/usr/share/cmake-3.31/Modules/Linker/GNU-C.cmake",
@@ -169,7 +169,7 @@
 		"/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerSupport.cmake",
 		"/usr/share/cmake-3.31/Modules/Internal/FeatureTesting.cmake",
 		"/usr/share/cmake-3.31/Modules/CMakeCXXCompiler.cmake.in",
-		"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
+		"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
 		"/usr/share/cmake-3.31/Modules/Internal/CMakeCXXLinkerInformation.cmake",
 		"/usr/share/cmake-3.31/Modules/Internal/CMakeCommonLinkerInformation.cmake",
 		"/usr/share/cmake-3.31/Modules/Linker/GNU-CXX.cmake",
@@ -226,34 +226,34 @@
 		"/usr/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake",
 		"/usr/share/cmake-3.31/Modules/FindPackageMessage.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server",
+	"CMAKE_SOURCE_DIR" : "/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/deps",
+	"DEP_FILE" : "/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "DevicesManager_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.hpp",
+			"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.hpp",
 			"MU",
 			"NPUKSKGWT2/moc_captureController.cpp",
 			null
 		],
 		[
-			"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.hpp",
+			"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.hpp",
 			"MU",
 			"NPUKSKGWT2/moc_deviceController.cpp",
 			null
 		],
 		[
-			"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/interface.hpp",
+			"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/interface.hpp",
 			"MU",
 			"OTUN7GXZT4/moc_interface.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/include",
-	"MOC_COMPILATION_FILE" : "/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -271,9 +271,9 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/model",
-		"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view",
-		"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller",
+		"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/model",
+		"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view",
+		"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
@@ -300,36 +300,36 @@
 		"-c",
 		"/usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/DevicesManager_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 8,
+	"PARSE_CACHE_FILE" : "/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/DevicesManager_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
 	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
-	"SETTINGS_FILE" : "/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/DevicesManager_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/CMakeFiles/DevicesManager_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.cpp",
+			"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.cpp",
 			"MU",
 			null
 		],
 		[
-			"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.cpp",
+			"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.cpp",
 			"MU",
 			null
 		],
 		[
-			"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/main.cpp",
+			"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/interface.cpp",
+			"/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/interface.cpp",
 			"MU",
 			null
 		]

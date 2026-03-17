@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <sqlite3.h>
+#include <regex>
 #include "device.hpp"
 
 const std::string DB_FILE = "../data/devices.db";

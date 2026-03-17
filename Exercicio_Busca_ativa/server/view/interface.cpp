@@ -114,13 +114,16 @@ void Interface::handleRegister() {
 	QString name = nameInput->text();
 	QString ip = ipInput->text();
 	QString mac = macInput->text();
+	
+	int codeReturn = controller->addDevice(name.toStdString(), ip.toStdString(), mac.toStdString());
 
-	if(controller->addDevice(name.toStdString(), ip.toStdString(), mac.toStdString())) {
+	if(codeReturn == 1) {
 		this->refreshDeviceList();
 		nameInput->clear();
 		ipInput->clear();
 		macInput->clear();
-	}
+	} else if(codeReturn == 2)	QMessageBox::critical(this, "Incorrect information", "The name of device must have minimum 4 characters.");
+	else if(codeReturn == 3) QMessageBox::critical(this, "Incorrect information", "The ip field is incorrect.");
 }
 
 void Interface::handleDeviceSelection(QListWidgetItem *item) {

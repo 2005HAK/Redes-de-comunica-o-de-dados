@@ -1,7 +1,7 @@
-/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/NPUKSKGWT2/moc_captureController.cpp: /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.hpp \
-  /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/moc_predefs.h \
-  /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.hpp \
-  /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/model/device.hpp \
+/home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/NPUKSKGWT2/moc_captureController.cpp: /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/captureController.hpp \
+  /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/build/DevicesManager_autogen/moc_predefs.h \
+  /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/controller/deviceController.hpp \
+  /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/model/device.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -156,6 +156,7 @@
   /usr/include/c++/14/ostream \
   /usr/include/c++/14/pstl/execution_defs.h \
   /usr/include/c++/14/pstl/glue_numeric_defs.h \
+  /usr/include/c++/14/regex \
   /usr/include/c++/14/stdexcept \
   /usr/include/c++/14/streambuf \
   /usr/include/c++/14/string \

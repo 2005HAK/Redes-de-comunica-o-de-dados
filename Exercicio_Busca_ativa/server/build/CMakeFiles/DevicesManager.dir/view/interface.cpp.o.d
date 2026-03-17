@@ -1,7 +1,7 @@
 CMakeFiles/DevicesManager.dir/view/interface.cpp.o: \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/interface.cpp \
+ /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/interface.cpp \
  /usr/include/stdc-predef.h \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/interface.hpp \
+ /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/interface.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -341,7 +341,7 @@ CMakeFiles/DevicesManager.dir/view/interface.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/../controller/deviceController.hpp \
+ /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/../controller/deviceController.hpp \
  /usr/include/c++/14/iostream /usr/include/c++/14/ostream \
  /usr/include/c++/14/ios /usr/include/c++/14/bits/basic_ios.h \
  /usr/include/c++/14/bits/locale_facets.h /usr/include/c++/14/cwctype \
@@ -352,8 +352,30 @@ CMakeFiles/DevicesManager.dir/view/interface.cpp.o: \
  /usr/include/c++/14/bits/basic_ios.tcc \
  /usr/include/c++/14/bits/ostream.tcc /usr/include/c++/14/istream \
  /usr/include/c++/14/bits/istream.tcc /usr/include/sqlite3.h \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/model/device.hpp \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/../controller/captureController.hpp \
+ /usr/include/c++/14/regex /usr/include/c++/14/bitset \
+ /usr/include/c++/14/locale \
+ /usr/include/c++/14/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/14/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/14/bits/codecvt.h \
+ /usr/include/c++/14/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/14/bits/locale_conv.h /usr/include/c++/14/sstream \
+ /usr/include/c++/14/bits/sstream.tcc /usr/include/c++/14/stack \
+ /usr/include/c++/14/deque /usr/include/c++/14/bits/stl_deque.h \
+ /usr/include/c++/14/bits/deque.tcc /usr/include/c++/14/bits/stl_stack.h \
+ /usr/include/c++/14/bits/regex_constants.h \
+ /usr/include/c++/14/bits/regex_error.h \
+ /usr/include/c++/14/bits/regex_automaton.h \
+ /usr/include/c++/14/bits/regex_automaton.tcc \
+ /usr/include/c++/14/bits/regex_scanner.h \
+ /usr/include/c++/14/bits/regex_scanner.tcc \
+ /usr/include/c++/14/bits/regex_compiler.h \
+ /usr/include/c++/14/bits/regex_compiler.tcc \
+ /usr/include/c++/14/bits/regex.h /usr/include/c++/14/bits/regex.tcc \
+ /usr/include/c++/14/bits/regex_executor.h \
+ /usr/include/c++/14/bits/regex_executor.tcc \
+ /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/model/device.hpp \
+ /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/../controller/captureController.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpSocket \
@@ -384,4 +406,4 @@ CMakeFiles/DevicesManager.dir/view/interface.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QFile \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/../controller/deviceController.hpp
+ /home/hak/Documentos/Redes-de-comunica-o-de-dados/Exercicio_Busca_ativa/server/view/../controller/deviceController.hpp
