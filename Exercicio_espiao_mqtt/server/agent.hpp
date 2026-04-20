@@ -9,6 +9,8 @@
 #include <QDataStream>
 #include <QCamera>
 #include <QCameraImageCapture>
+#include <QNetworkInterface>
+#include <QHostAddress>
 #include <iostream>
 #include <mosquitto.h>
 
