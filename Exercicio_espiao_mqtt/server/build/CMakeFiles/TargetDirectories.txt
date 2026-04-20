@@ -1,0 +1,5 @@
+/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/CMakeFiles/DeviceAgent.dir
+/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/CMakeFiles/edit_cache.dir
+/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/CMakeFiles/rebuild_cache.dir
+/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/CMakeFiles/DeviceAgent_autogen_timestamp_deps.dir
+/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/CMakeFiles/DeviceAgent_autogen.dir
