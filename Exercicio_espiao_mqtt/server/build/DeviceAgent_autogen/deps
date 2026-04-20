@@ -1,12 +1,12 @@
 DeviceAgent_autogen/timestamp: \
-	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/CMakeLists.txt \
-	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/agent.cpp \
-	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/agent.hpp \
-	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/CMakeFiles/3.31.6/CMakeCCompiler.cmake \
-	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake \
-	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/CMakeFiles/3.31.6/CMakeSystem.cmake \
-	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/DeviceAgent_autogen/moc_predefs.h \
-	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/main.cpp \
+	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/CMakeLists.txt \
+	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/agent.cpp \
+	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/agent.hpp \
+	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build/CMakeFiles/3.31.6/CMakeCCompiler.cmake \
+	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake \
+	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build/CMakeFiles/3.31.6/CMakeSystem.cmake \
+	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build/DeviceAgent_autogen/moc_predefs.h \
+	/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/main.cpp \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/bitsperlong.h \
 	/usr/include/asm-generic/errno-base.h \
@@ -399,6 +399,13 @@ DeviceAgent_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimedia-config.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimediaglobal.h \
 	/usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qvideoframe.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtNetwork/QHostAddress \
+	/usr/include/x86_64-linux-gnu/qt5/QtNetwork/QNetworkInterface \
+	/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qhostaddress.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkinterface.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h \
+	/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h \
 	/usr/include/x86_64-linux-gnu/sys/cdefs.h \
 	/usr/include/x86_64-linux-gnu/sys/select.h \
 	/usr/include/x86_64-linux-gnu/sys/syscall.h \

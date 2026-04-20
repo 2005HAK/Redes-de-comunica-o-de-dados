@@ -1,5 +1,5 @@
 CMakeFiles/DeviceAgent.dir/main.cpp.o: \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/main.cpp \
+ /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/main.cpp \
  /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
@@ -275,7 +275,7 @@ CMakeFiles/DeviceAgent.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
  /usr/include/c++/14/variant \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/agent.hpp \
+ /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/agent.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QGuiApplication \
@@ -338,6 +338,14 @@ CMakeFiles/DeviceAgent.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qcameraimagecapture.h \
  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaencodersettings.h \
  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediabindableinterface.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QNetworkInterface \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkinterface.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qhostaddress.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QHostAddress \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qhostaddress.h \
  /usr/include/c++/14/iostream /usr/include/c++/14/ostream \
  /usr/include/c++/14/ios /usr/include/c++/14/bits/basic_ios.h \
  /usr/include/c++/14/bits/locale_facets.h /usr/include/c++/14/cwctype \

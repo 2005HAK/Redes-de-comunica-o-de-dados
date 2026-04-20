@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server
+CMAKE_SOURCE_DIR = /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build
+CMAKE_BINARY_DIR = /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build
 
 # Utility rule file for DeviceAgent_autogen.
 
@@ -71,9 +71,9 @@ CMakeFiles/DeviceAgent_autogen: DeviceAgent_autogen/timestamp
 DeviceAgent_autogen/timestamp: /usr/lib/qt5/bin/moc
 DeviceAgent_autogen/timestamp: /usr/lib/qt5/bin/uic
 DeviceAgent_autogen/timestamp: CMakeFiles/DeviceAgent_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target DeviceAgent"
-	/usr/bin/cmake -E cmake_autogen /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/CMakeFiles/DeviceAgent_autogen.dir/AutogenInfo.json ""
-	/usr/bin/cmake -E touch /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/DeviceAgent_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target DeviceAgent"
+	/usr/bin/cmake -E cmake_autogen /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build/CMakeFiles/DeviceAgent_autogen.dir/AutogenInfo.json ""
+	/usr/bin/cmake -E touch /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build/DeviceAgent_autogen/timestamp
 
 CMakeFiles/DeviceAgent_autogen.dir/codegen:
 .PHONY : CMakeFiles/DeviceAgent_autogen.dir/codegen
@@ -92,6 +92,6 @@ CMakeFiles/DeviceAgent_autogen.dir/clean:
 .PHONY : CMakeFiles/DeviceAgent_autogen.dir/clean
 
 CMakeFiles/DeviceAgent_autogen.dir/depend:
-	cd /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/CMakeFiles/DeviceAgent_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build/CMakeFiles/DeviceAgent_autogen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/DeviceAgent_autogen.dir/depend
 

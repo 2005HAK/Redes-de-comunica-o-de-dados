@@ -41,6 +41,8 @@ Agent::~Agent(){
 
 void Agent::on_message_callback(struct mosquitto *mosq, void *userdata, const struct mosquitto_message *message) {
 	Agent* self = static_cast<Agent*>(userdata);
+
+	std::cout << "Received MQTT message on topic: " << message->topic << std::endl;
 	
 	QByteArray request(static_cast<char*>(message->payload), message->payloadlen);
 

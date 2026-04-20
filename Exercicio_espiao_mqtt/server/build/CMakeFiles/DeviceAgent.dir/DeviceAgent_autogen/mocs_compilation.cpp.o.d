@@ -1,7 +1,7 @@
 CMakeFiles/DeviceAgent.dir/DeviceAgent_autogen/mocs_compilation.cpp.o: \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/DeviceAgent_autogen/mocs_compilation.cpp \
+ /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build/DeviceAgent_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/DeviceAgent_autogen/EWIEGA46WW/moc_agent.cpp \
+ /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build/DeviceAgent_autogen/EWIEGA46WW/moc_agent.cpp \
  /usr/include/c++/14/memory /usr/include/c++/14/bits/memoryfwd.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/14/bits/os_defines.h \
@@ -124,7 +124,7 @@ CMakeFiles/DeviceAgent.dir/DeviceAgent_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/14/backward/auto_ptr.h \
  /usr/include/c++/14/pstl/glue_memory_defs.h \
  /usr/include/c++/14/pstl/execution_defs.h \
- /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/DeviceAgent_autogen/EWIEGA46WW/../../../agent.hpp \
+ /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build/DeviceAgent_autogen/EWIEGA46WW/../../../agent.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
@@ -333,6 +333,14 @@ CMakeFiles/DeviceAgent.dir/DeviceAgent_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qcameraimagecapture.h \
  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediaencodersettings.h \
  /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qmediabindableinterface.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QNetworkInterface \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkinterface.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qhostaddress.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QHostAddress \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qhostaddress.h \
  /usr/include/c++/14/iostream /usr/include/c++/14/ostream \
  /usr/include/c++/14/ios /usr/include/c++/14/bits/basic_ios.h \
  /usr/include/c++/14/bits/locale_facets.h /usr/include/c++/14/cwctype \

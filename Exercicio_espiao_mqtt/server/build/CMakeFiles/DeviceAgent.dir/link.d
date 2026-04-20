@@ -38,7 +38,6 @@ DeviceAgent: \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o \
   /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o \
   /lib/x86_64-linux-gnu/libm.so.6 \
-  /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.15 \
   /lib/i386-linux-gnu/libpulse.so.0 \
   /usr/lib/i386-linux-gnu/libpulse.so.0 \
   /lib/x86_64-linux-gnu/libpulse.so.0 \
@@ -48,15 +47,18 @@ DeviceAgent: \
   /lib/i386-linux-gnu/libcrypto.so.3 \
   /usr/lib/i386-linux-gnu/libcrypto.so.3 \
   /lib/x86_64-linux-gnu/libcrypto.so.3 \
+  /lib/i386-linux-gnu/libz.so.1 \
+  /usr/lib/i386-linux-gnu/libz.so.1 \
+  /lib/x86_64-linux-gnu/libz.so.1 \
+  /lib/i386-linux-gnu/libgssapi_krb5.so.2 \
+  /usr/lib/i386-linux-gnu/libgssapi_krb5.so.2 \
+  /lib/x86_64-linux-gnu/libgssapi_krb5.so.2 \
   /lib/i386-linux-gnu/libGL.so.1 \
   /usr/lib/i386-linux-gnu/libGL.so.1 \
   /lib/x86_64-linux-gnu/libGL.so.1 \
   /lib/i386-linux-gnu/libpng16.so.16 \
   /usr/lib/i386-linux-gnu/libpng16.so.16 \
   /lib/x86_64-linux-gnu/libpng16.so.16 \
-  /lib/i386-linux-gnu/libz.so.1 \
-  /usr/lib/i386-linux-gnu/libz.so.1 \
-  /lib/x86_64-linux-gnu/libz.so.1 \
   /lib/i386-linux-gnu/libharfbuzz.so.0 \
   /usr/lib/i386-linux-gnu/libharfbuzz.so.0 \
   /lib/x86_64-linux-gnu/libharfbuzz.so.0 \
@@ -72,13 +74,22 @@ DeviceAgent: \
   /usr/lib/i386-linux-gnu/libglib-2.0.so.0 \
   /lib/x86_64-linux-gnu/libglib-2.0.so.0 \
   /lib64/ld-linux-x86-64.so.2 \
-  /lib/i386-linux-gnu/libgssapi_krb5.so.2 \
-  /usr/lib/i386-linux-gnu/libgssapi_krb5.so.2 \
-  /lib/x86_64-linux-gnu/libgssapi_krb5.so.2 \
   /usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-17.0.so \
   /lib/i386-linux-gnu/libdbus-1.so.3 \
   /usr/lib/i386-linux-gnu/libdbus-1.so.3 \
   /lib/x86_64-linux-gnu/libdbus-1.so.3 \
+  /lib/i386-linux-gnu/libkrb5.so.3 \
+  /usr/lib/i386-linux-gnu/libkrb5.so.3 \
+  /lib/x86_64-linux-gnu/libkrb5.so.3 \
+  /lib/i386-linux-gnu/libk5crypto.so.3 \
+  /usr/lib/i386-linux-gnu/libk5crypto.so.3 \
+  /lib/x86_64-linux-gnu/libk5crypto.so.3 \
+  /lib/i386-linux-gnu/libcom_err.so.2 \
+  /usr/lib/i386-linux-gnu/libcom_err.so.2 \
+  /lib/x86_64-linux-gnu/libcom_err.so.2 \
+  /lib/i386-linux-gnu/libkrb5support.so.0 \
+  /usr/lib/i386-linux-gnu/libkrb5support.so.0 \
+  /lib/x86_64-linux-gnu/libkrb5support.so.0 \
   /lib/i386-linux-gnu/libGLdispatch.so.0 \
   /usr/lib/i386-linux-gnu/libGLdispatch.so.0 \
   /lib/x86_64-linux-gnu/libGLdispatch.so.0 \
@@ -98,18 +109,6 @@ DeviceAgent: \
   /lib/i386-linux-gnu/libpcre2-8.so.0 \
   /usr/lib/i386-linux-gnu/libpcre2-8.so.0 \
   /lib/x86_64-linux-gnu/libpcre2-8.so.0 \
-  /lib/i386-linux-gnu/libkrb5.so.3 \
-  /usr/lib/i386-linux-gnu/libkrb5.so.3 \
-  /lib/x86_64-linux-gnu/libkrb5.so.3 \
-  /lib/i386-linux-gnu/libk5crypto.so.3 \
-  /usr/lib/i386-linux-gnu/libk5crypto.so.3 \
-  /lib/x86_64-linux-gnu/libk5crypto.so.3 \
-  /lib/i386-linux-gnu/libcom_err.so.2 \
-  /usr/lib/i386-linux-gnu/libcom_err.so.2 \
-  /lib/x86_64-linux-gnu/libcom_err.so.2 \
-  /lib/i386-linux-gnu/libkrb5support.so.0 \
-  /usr/lib/i386-linux-gnu/libkrb5support.so.0 \
-  /lib/x86_64-linux-gnu/libkrb5support.so.0 \
   /lib/i386-linux-gnu/libsndfile.so.1 \
   /usr/lib/i386-linux-gnu/libsndfile.so.1 \
   /lib/x86_64-linux-gnu/libsndfile.so.1 \
@@ -128,18 +127,18 @@ DeviceAgent: \
   /lib/i386-linux-gnu/libasyncns.so.0 \
   /usr/lib/i386-linux-gnu/libasyncns.so.0 \
   /lib/x86_64-linux-gnu/libasyncns.so.0 \
-  /lib/i386-linux-gnu/libbz2.so.1.0 \
-  /usr/lib/i386-linux-gnu/libbz2.so.1.0 \
-  /lib/x86_64-linux-gnu/libbz2.so.1.0 \
-  /lib/i386-linux-gnu/libbrotlidec.so.1 \
-  /usr/lib/i386-linux-gnu/libbrotlidec.so.1 \
-  /lib/x86_64-linux-gnu/libbrotlidec.so.1 \
   /lib/i386-linux-gnu/libkeyutils.so.1 \
   /usr/lib/i386-linux-gnu/libkeyutils.so.1 \
   /lib/x86_64-linux-gnu/libkeyutils.so.1 \
   /lib/i386-linux-gnu/libresolv.so.2 \
   /usr/lib/i386-linux-gnu/libresolv.so.2 \
   /lib/x86_64-linux-gnu/libresolv.so.2 \
+  /lib/i386-linux-gnu/libbz2.so.1.0 \
+  /usr/lib/i386-linux-gnu/libbz2.so.1.0 \
+  /lib/x86_64-linux-gnu/libbz2.so.1.0 \
+  /lib/i386-linux-gnu/libbrotlidec.so.1 \
+  /usr/lib/i386-linux-gnu/libbrotlidec.so.1 \
+  /lib/x86_64-linux-gnu/libbrotlidec.so.1 \
   /lib/i386-linux-gnu/libFLAC.so.14 \
   /usr/lib/i386-linux-gnu/libFLAC.so.14 \
   /lib/x86_64-linux-gnu/libFLAC.so.14 \
@@ -252,8 +251,6 @@ CMakeFiles/DeviceAgent.dir/agent.cpp.o:
 
 /lib/x86_64-linux-gnu/libm.so.6:
 
-/usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.15:
-
 /lib/i386-linux-gnu/libpulse.so.0:
 
 /usr/lib/i386-linux-gnu/libpulse.so.0:
@@ -272,6 +269,18 @@ CMakeFiles/DeviceAgent.dir/agent.cpp.o:
 
 /lib/x86_64-linux-gnu/libcrypto.so.3:
 
+/lib/i386-linux-gnu/libz.so.1:
+
+/usr/lib/i386-linux-gnu/libz.so.1:
+
+/lib/x86_64-linux-gnu/libz.so.1:
+
+/lib/i386-linux-gnu/libgssapi_krb5.so.2:
+
+/usr/lib/i386-linux-gnu/libgssapi_krb5.so.2:
+
+/lib/x86_64-linux-gnu/libgssapi_krb5.so.2:
+
 /lib/i386-linux-gnu/libGL.so.1:
 
 /usr/lib/i386-linux-gnu/libGL.so.1:
@@ -283,12 +292,6 @@ CMakeFiles/DeviceAgent.dir/agent.cpp.o:
 /usr/lib/i386-linux-gnu/libpng16.so.16:
 
 /lib/x86_64-linux-gnu/libpng16.so.16:
-
-/lib/i386-linux-gnu/libz.so.1:
-
-/usr/lib/i386-linux-gnu/libz.so.1:
-
-/lib/x86_64-linux-gnu/libz.so.1:
 
 /lib/i386-linux-gnu/libharfbuzz.so.0:
 
@@ -320,12 +323,6 @@ CMakeFiles/DeviceAgent.dir/agent.cpp.o:
 
 /lib64/ld-linux-x86-64.so.2:
 
-/lib/i386-linux-gnu/libgssapi_krb5.so.2:
-
-/usr/lib/i386-linux-gnu/libgssapi_krb5.so.2:
-
-/lib/x86_64-linux-gnu/libgssapi_krb5.so.2:
-
 /usr/lib/x86_64-linux-gnu/pulseaudio/libpulsecommon-17.0.so:
 
 /lib/i386-linux-gnu/libdbus-1.so.3:
@@ -333,6 +330,30 @@ CMakeFiles/DeviceAgent.dir/agent.cpp.o:
 /usr/lib/i386-linux-gnu/libdbus-1.so.3:
 
 /lib/x86_64-linux-gnu/libdbus-1.so.3:
+
+/lib/i386-linux-gnu/libkrb5.so.3:
+
+/usr/lib/i386-linux-gnu/libkrb5.so.3:
+
+/lib/x86_64-linux-gnu/libkrb5.so.3:
+
+/lib/i386-linux-gnu/libk5crypto.so.3:
+
+/usr/lib/i386-linux-gnu/libk5crypto.so.3:
+
+/lib/x86_64-linux-gnu/libk5crypto.so.3:
+
+/lib/i386-linux-gnu/libcom_err.so.2:
+
+/usr/lib/i386-linux-gnu/libcom_err.so.2:
+
+/lib/x86_64-linux-gnu/libcom_err.so.2:
+
+/lib/i386-linux-gnu/libkrb5support.so.0:
+
+/usr/lib/i386-linux-gnu/libkrb5support.so.0:
+
+/lib/x86_64-linux-gnu/libkrb5support.so.0:
 
 /lib/i386-linux-gnu/libGLdispatch.so.0:
 
@@ -372,30 +393,6 @@ CMakeFiles/DeviceAgent.dir/agent.cpp.o:
 
 /lib/x86_64-linux-gnu/libpcre2-8.so.0:
 
-/lib/i386-linux-gnu/libkrb5.so.3:
-
-/usr/lib/i386-linux-gnu/libkrb5.so.3:
-
-/lib/x86_64-linux-gnu/libkrb5.so.3:
-
-/lib/i386-linux-gnu/libk5crypto.so.3:
-
-/usr/lib/i386-linux-gnu/libk5crypto.so.3:
-
-/lib/x86_64-linux-gnu/libk5crypto.so.3:
-
-/lib/i386-linux-gnu/libcom_err.so.2:
-
-/usr/lib/i386-linux-gnu/libcom_err.so.2:
-
-/lib/x86_64-linux-gnu/libcom_err.so.2:
-
-/lib/i386-linux-gnu/libkrb5support.so.0:
-
-/usr/lib/i386-linux-gnu/libkrb5support.so.0:
-
-/lib/x86_64-linux-gnu/libkrb5support.so.0:
-
 /lib/i386-linux-gnu/libsndfile.so.1:
 
 /usr/lib/i386-linux-gnu/libsndfile.so.1:
@@ -432,18 +429,6 @@ CMakeFiles/DeviceAgent.dir/agent.cpp.o:
 
 /lib/x86_64-linux-gnu/libasyncns.so.0:
 
-/lib/i386-linux-gnu/libbz2.so.1.0:
-
-/usr/lib/i386-linux-gnu/libbz2.so.1.0:
-
-/lib/x86_64-linux-gnu/libbz2.so.1.0:
-
-/lib/i386-linux-gnu/libbrotlidec.so.1:
-
-/usr/lib/i386-linux-gnu/libbrotlidec.so.1:
-
-/lib/x86_64-linux-gnu/libbrotlidec.so.1:
-
 /lib/i386-linux-gnu/libkeyutils.so.1:
 
 /usr/lib/i386-linux-gnu/libkeyutils.so.1:
@@ -455,6 +440,18 @@ CMakeFiles/DeviceAgent.dir/agent.cpp.o:
 /usr/lib/i386-linux-gnu/libresolv.so.2:
 
 /lib/x86_64-linux-gnu/libresolv.so.2:
+
+/lib/i386-linux-gnu/libbz2.so.1.0:
+
+/usr/lib/i386-linux-gnu/libbz2.so.1.0:
+
+/lib/x86_64-linux-gnu/libbz2.so.1.0:
+
+/lib/i386-linux-gnu/libbrotlidec.so.1:
+
+/usr/lib/i386-linux-gnu/libbrotlidec.so.1:
+
+/lib/x86_64-linux-gnu/libbrotlidec.so.1:
 
 /lib/i386-linux-gnu/libFLAC.so.14:
 

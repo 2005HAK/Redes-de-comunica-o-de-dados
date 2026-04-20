@@ -1,5 +1,5 @@
-/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/DeviceAgent_autogen/EWIEGA46WW/moc_agent.cpp: /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/agent.hpp \
-  /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_esppiao_mqtt/server/build/DeviceAgent_autogen/moc_predefs.h \
+/media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build/DeviceAgent_autogen/EWIEGA46WW/moc_agent.cpp: /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/agent.hpp \
+  /media/hak/HD1TB/Documentos/Hebert_Alan_Kubis/Repositorios/UFSC/Redes-de-comunica-o-de-dados/Exercicio_espiao_mqtt/server/build/DeviceAgent_autogen/moc_predefs.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
@@ -392,6 +392,13 @@
   /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimedia-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qtmultimediaglobal.h \
   /usr/include/x86_64-linux-gnu/qt5/QtMultimedia/qvideoframe.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QHostAddress \
+  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QNetworkInterface \
+  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qhostaddress.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qnetworkinterface.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/syscall.h \
