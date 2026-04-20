@@ -13,11 +13,21 @@ Agent::Agent(QObject* parent) : QObject(parent){
 	mosq = mosquitto_new("DeviceAgent_Target", true, this);
 	mosquitto_message_callback_set(mosq, on_message_callback);
 
+	QString myIP = "127.0.0.1"; // Fallback
+	for (const QHostAddress &address: QNetworkInterface::allAddresses()) {
+		if (address.protocol() == QAbstractSocket::IPv4Protocol && address != QHostAddress::LocalHost) {
+			myIP = address.toString();
+			break;
+		}
+	}
+
+	QString commandTopic = QString("device/%1/command").arg(myIP);
+
 	int rc = mosquitto_connect(mosq, "192.168.1.85", 1883, 60);
 	if(rc != MOSQ_ERR_SUCCESS) std::cerr << "Falha ao conectar no broker MQTT: " << mosquitto_strerror(rc) << std::endl;
 	else {
 		std::cout << "Agente conectado ao Broker MQTT com sucesso." << std::endl;
-		mosquitto_subscribe(mosq, NULL, "device/pcti/command", 0);
+		mosquitto_subscribe(mosq, NULL, commandTopic.toStdString().c_str(), 0);
 	}
 
 	mosquitto_loop_start(mosq);
