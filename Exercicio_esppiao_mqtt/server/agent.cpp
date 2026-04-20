@@ -13,7 +13,7 @@ Agent::Agent(QObject* parent) : QObject(parent){
 	mosq = mosquitto_new("DeviceAgent_Target", true, this);
 	mosquitto_message_callback_set(mosq, on_message_callback);
 
-	int rc = mosquitto_connect(mosq, "localhost", 1883, 60);
+	int rc = mosquitto_connect(mosq, "192.168.1.85", 1883, 60);
 	if(rc != MOSQ_ERR_SUCCESS) std::cerr << "Falha ao conectar no broker MQTT: " << mosquitto_strerror(rc) << std::endl;
 	else {
 		std::cout << "Agente conectado ao Broker MQTT com sucesso." << std::endl;
