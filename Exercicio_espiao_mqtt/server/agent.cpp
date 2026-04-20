@@ -24,7 +24,7 @@ Agent::Agent(QObject* parent) : QObject(parent){
 	int rc = mosquitto_connect(mosq, "192.168.1.85", 1883, 60);
 	if(rc != MOSQ_ERR_SUCCESS) std::cerr << "Falha ao conectar no broker MQTT: " << mosquitto_strerror(rc) << std::endl;
 	else {
-		std::cout << "Agente conectado ao Broker MQTT com sucesso." << std::endl;
+		std::cout << "Agente conectado ao Broker MQTT com sucesso a " << myIP << std::endl;
 		
 		QString commandTopic = QString("device/%1/command").arg(myIP);
 		mosquitto_subscribe(mosq, NULL, commandTopic.toStdString().c_str(), 0);
