@@ -30,6 +30,8 @@ class Agent : public QObject {
 
 		static void on_message_callback(struct mosquitto *mosq, void *userdata, const struct mosquitto_message *message);
 
+		static void on_connect_callback(struct mosquitto *mosq, void *userdata, int result);
+
 	private slots:
 		void onWebcamImageCaptured(int id, const QImage &preview);
 		void onCameraError(int id, QCameraImageCapture::Error error, const QString &errorString);

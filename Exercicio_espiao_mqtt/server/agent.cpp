@@ -8,11 +8,6 @@ Agent::Agent(QObject* parent) : QObject(parent){
 	connect(imageCapture, QOverload<int, QCameraImageCapture::Error, const QString &>::of(&QCameraImageCapture::error), this, &Agent::onCameraError);
 	connect(imageCapture, &QCameraImageCapture::readyForCaptureChanged, this, &Agent::onCameraReadyForCapture);
 
-	mosquitto_lib_init();
-
-	mosq = mosquitto_new("DeviceAgent_Target", true, this);
-	mosquitto_message_callback_set(mosq, on_message_callback);
-
 	myIP = "127.0.0.1";
 	for (const QHostAddress &address: QNetworkInterface::allAddresses()) {
 		if (address.protocol() == QAbstractSocket::IPv4Protocol && address != QHostAddress::LocalHost) {
@@ -20,23 +15,38 @@ Agent::Agent(QObject* parent) : QObject(parent){
 			break;
 		}
 	}
+	
+	mosquitto_lib_init();
 
-	int rc = mosquitto_connect(mosq, "192.168.1.85", 1883, 60);
-	if(rc != MOSQ_ERR_SUCCESS) std::cerr << "Falha ao conectar no broker MQTT: " << mosquitto_strerror(rc) << std::endl;
-	else {
-		std::cout << "Agente conectado ao Broker MQTT com sucesso a " << myIP.toStdString() << std::endl;
-		
-		QString commandTopic = QString("device/%1/command").arg(myIP);
-		mosquitto_subscribe(mosq, NULL, commandTopic.toStdString().c_str(), 0);
-	}
+	QString clientId = QString("DeviceAgent_%1").arg(myIP);
+	mosq = mosquitto_new(clientId.toStdString().c_str(), true, this);
+
+	mosquitto_message_callback_set(mosq, on_message_callback);
+	mosquitto_connect_callback_set(mosq, on_connect_callback);
 
 	mosquitto_loop_start(mosq);
+
+	int rc = mosquitto_connect_async(mosq, "192.168.1.85", 1883, 60);
+	if(rc != MOSQ_ERR_SUCCESS) std::cerr << "Falha ao conectar no broker MQTT: " << mosquitto_strerror(rc) << std::endl;
 }
 
 Agent::~Agent(){
 	mosquitto_loop_stop(mosq, true);
 	mosquitto_destroy(mosq);
 	mosquitto_lib_cleanup();
+}
+
+void Agent::on_connect_callback(struct mosquitto *mosq, void *userdata, int result) {
+	Agent* self = static_cast<Agent*>(userdata);
+	
+	if(result == 0){
+		std::cout << "Broker confirmou a conexao! Assinando topico de escuta..." << std::endl;
+
+		QString commandTopic = QString("device/%1/command").arg(self->myIP);
+		mosquitto_subscribe(mosq, NULL, commandTopic.toStdString().c_str(), 0);
+	} else {
+		std::cerr << "Erro ao conectar no Broker. Codigo de recusa: " << result << std::endl;
+	}
 }
 
 void Agent::on_message_callback(struct mosquitto *mosq, void *userdata, const struct mosquitto_message *message) {
