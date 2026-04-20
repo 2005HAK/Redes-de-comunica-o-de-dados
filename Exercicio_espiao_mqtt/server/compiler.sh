@@ -9,7 +9,7 @@ rm -rf *
 echo "Generating Make files..."
 cmake ..
 
-echo "Compilando..."
+echo "Compiling..."
 make
 
 if [ $? -eq 0 ]; then
