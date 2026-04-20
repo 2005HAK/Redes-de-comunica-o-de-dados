@@ -13,7 +13,7 @@ Agent::Agent(QObject* parent) : QObject(parent){
 	mosq = mosquitto_new("DeviceAgent_Target", true, this);
 	mosquitto_message_callback_set(mosq, on_message_callback);
 
-	QString myIP = "127.0.0.1"; // Fallback
+	myIP = "127.0.0.1";
 	for (const QHostAddress &address: QNetworkInterface::allAddresses()) {
 		if (address.protocol() == QAbstractSocket::IPv4Protocol && address != QHostAddress::LocalHost) {
 			myIP = address.toString();
@@ -21,12 +21,12 @@ Agent::Agent(QObject* parent) : QObject(parent){
 		}
 	}
 
-	QString commandTopic = QString("device/%1/command").arg(myIP);
-
 	int rc = mosquitto_connect(mosq, "192.168.1.85", 1883, 60);
 	if(rc != MOSQ_ERR_SUCCESS) std::cerr << "Falha ao conectar no broker MQTT: " << mosquitto_strerror(rc) << std::endl;
 	else {
 		std::cout << "Agente conectado ao Broker MQTT com sucesso." << std::endl;
+		
+		QString commandTopic = QString("device/%1/command").arg(myIP);
 		mosquitto_subscribe(mosq, NULL, commandTopic.toStdString().c_str(), 0);
 	}
 
@@ -94,7 +94,9 @@ void Agent::onWebcamImageCaptured(int id, const QImage& preview){
 	payload.append(pendingScreenData);
 	payload.append(webCamData);
 
-	int rc = mosquitto_publish(mosq, NULL, "device/pcti/data", payload.size(), payload.constData(), 0, false);
+	QString dataTopic = QString("device/%1/data").arg(myIP);
+
+	int rc = mosquitto_publish(mosq, NULL, dataTopic.toStdString().c_str(), payload.size(), payload.constData(), 0, false);
 
 	if(rc == MOSQ_ERR_SUCCESS) std::cout << "Successfully sent " << payload.size() << " bytes via MQTT" << std::endl;
 	else std::cerr << "Failed to publish data via MQTT" << std::endl;

@@ -24,6 +24,8 @@ class Agent : public QObject {
 
 		QByteArray pendingScreenData;
 
+		QString myIP;
+
 		static void on_message_callback(struct mosquitto *mosq, void *userdata, const struct mosquitto_message *message);
 
 	private slots:
