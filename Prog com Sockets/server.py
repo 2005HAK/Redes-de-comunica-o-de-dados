@@ -8,7 +8,7 @@ PORT = 8081
 KNOWLEDGE_BASE = {
     "qual e a capital do brasil?": "Brasília",
     "quanto e 2+2?": "4",
-    "quem e a senhora ella?": "Uma usuária muito dedicada ao seu projeto de redes."
+    "qual o sentido da vida?": "42"
 }
 
 def handle_client(conn, addr):
